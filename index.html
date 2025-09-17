@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base de datos Motherboards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Base de Datos de Motherboards</h1>
+
+  <!-- Menú -->
+  <nav>
+    <button onclick="cargarDatos('motherboards.json')">Errores</button>
+    <button onclick="cargarDatos('bios.json')">Actualización BIOS</button>
+  </nav>
+
+  <!-- Buscador -->
+  <input type="text" id="buscador" placeholder="Buscar modelo o error..." onkeyup="buscar()">
+
+  <!-- Resultados -->
+  <div id="resultados"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
