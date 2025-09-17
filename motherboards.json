@@ -1,0 +1,24 @@
+[
+  {
+    "marca": "ASUS",
+    "modelo": "B450M-A",
+    "errores": [
+      {
+        "descripcion": "No arranca con RAM de 3200 MHz",
+        "solucion": "Actualizar BIOS a v3204",
+        "notas": "Compatibilidad mejorada con Ryzen 3000"
+      }
+    ]
+  },
+  {
+    "marca": "Gigabyte",
+    "modelo": "Z690 UD",
+    "errores": [
+      {
+        "descripcion": "No detecta M.2 NVMe",
+        "solucion": "Habilitar en BIOS opción PCIe 4.0 x4",
+        "notas": "A veces requiere actualización de firmware"
+      }
+    ]
+  }
+]
