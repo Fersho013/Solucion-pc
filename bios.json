@@ -1,0 +1,19 @@
+[
+  {
+    "marca": "ASUS",
+    "modelo": "B450M-A",
+    "versiones": [
+      {
+        "version": "3204",
+        "fecha": "2022-07-15",
+        "descripcion": "Mejora compatibilidad con Ryzen 3000",
+        "instrucciones": [
+          "Descargar desde ASUS Support",
+          "Copiar en USB FAT32",
+          "Entrar a BIOS > EZ Flash",
+          "Seleccionar archivo y actualizar"
+        ]
+      }
+    ]
+  }
+]
